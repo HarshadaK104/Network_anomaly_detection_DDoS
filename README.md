@@ -78,3 +78,22 @@ Evaluation Metrics:
    ```bash
    git clone https://github.com/your-username/ddos-ml-detector.git
    cd ddos-ml-detector
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run the Flask server**
+   ```bash
+   python app.py
+   
+4.**Access Frontend**
+Open index.html in your browser and upload a CSV file to test.
+
+---
+##🔍 How It Works
+
+1) User uploads a network traffic CSV file via the UI.
+2) The file is sent to the Flask backend.
+3) The trained ML model analyzes the traffic and classifies flows as benign or DDoS.
+4) The result is returned and displayed in the UI.
