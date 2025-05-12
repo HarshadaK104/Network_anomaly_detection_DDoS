@@ -91,7 +91,7 @@ Evaluation Metrics:
 Open index.html in your browser and upload a CSV file to test.
 
 ---
-##🔍 How It Works
+## 🔍 How It Works
 
 1) User uploads a network traffic CSV file via the UI.
 2) The file is sent to the Flask backend.
